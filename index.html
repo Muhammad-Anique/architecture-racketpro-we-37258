@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RacketPro Web - Professional racket sports equipment and expert stringing services for Tennis, Badminton, and Squash.">
+    <title>RacketPro | Elite Sports Equipment & Professional Stringing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="container">
+            <div class="logo">Racket<span>Pro</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#products">Equipment</a></li>
+                <li><a href="#services">Stringing</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact" class="btn-primary">Get Started</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Elevate Your Game with Precision Gear</h1>
+                <p>Professional-grade rackets and master-class stringing services tailored to your playing style.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-primary">Contact Us</a>
+                    <a href="#products" class="btn-secondary">Browse Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Bar -->
+        <section class="brand-bar">
+            <div class="container brands-wrapper">
+                <img src="https://via.placeholder.com/120x40?text=WILSON" alt="Wilson Logo">
+                <img src="https://via.placeholder.com/120x40?text=YONEX" alt="Yonex Logo">
+                <img src="https://via.placeholder.com/120x40?text=Babolat" alt="Babolat Logo">
+                <img src="https://via.placeholder.com/120x40?text=HEAD" alt="Head Logo">
+                <img src="https://via.placeholder.com/120x40?text=Victor" alt="Victor Logo">
+            </div>
+        </section>
+
+        <!-- Product Showcase -->
+        <section id="products" class="section">
+            <div class="container">
+                <h2 class="section-title">Premium Equipment</h2>
+                <div class="product-grid">
+                    <div class="card">
+                        <div class="card-img tennis"></div>
+                        <h3>Pro Series Tennis</h3>
+                        <p>Aerodynamic frames designed for maximum power and spin control.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-img badminton"></div>
+                        <h3>Elite Badminton</h3>
+                        <p>Ultra-lightweight carbon fiber for lightning-fast defensive play.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-img squash"></div>
+                        <h3>Master Squash</h3>
+                        <p>Exceptional maneuverability and feel for tight corner shots.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stringing Services Table -->
+        <section id="services" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Professional Stringing</h2>
+                <p class="section-subtitle">Certified technicians using electronic tensioning machine for 0.1lb accuracy.</p>
+                <div class="table-container">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Service Type</th>
+                                <th>Wait Time</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Standard Labor (Bring your own string)</td>
+                                <td>24-48 Hours</td>
+                                <td>$20.00</td>
+                            </tr>
+                            <tr>
+                                <td>Premium Synthetic Gut Package</td>
+                                <td>Next Day</td>
+                                <td>$35.00</td>
+                            </tr>
+                            <tr>
+                                <td>Performance Co-Poly/Multifilament</td>
+                                <td>Next Day</td>
+                                <td>$45.00</td>
+                            </tr>
+                            <tr>
+                                <td>Express "On-the-Spot" Service</td>
+                                <td>1 Hour</td>
+                                <td>+$15.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Carousel -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2 class="section-title">Player Feedback</h2>
+                <div class="testimonial-container">
+                    <div class="testimonial-track" id="testimonialTrack">
+                        <div class="testimonial-item">
+                            <p>"The tension consistency on my Wilson Blade was perfect. RacketPro knows their stuff!"</p>
+                            <h4>- Marcus T., Competitive Amateur</h4>
+                        </div>
+                        <div class="testimonial-item">
+                            <p>"Finally found a shop that understands badminton stringing. My Yonex feels brand new."</p>
+                            <h4>- Sarah K., Club Player</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leads Contact Form -->
+        <section id="contact" class="section bg-dark">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Ready to Play?</h2>
+                        <p>Inquire about specific racket availability or book a stringing appointment today.</p>
+                        <ul class="contact-details">
+                            <li>📍 123 Sports Plaza, Metro City</li>
+                            <li>📞 (555) 123-4567</li>
+                            <li>✉️ hello@racketpro.com</li>
+                        </ul>
+                    </div>
+                    <form id="leadForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest">
+                                <option value="stringing">Stringing Service</option>
+                                <option value="purchase">Equipment Purchase</option>
+                                <option value="other">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">Racket<span>Pro</span></div>
+                    <p>High-performance gear for champions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-socials">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 RacketPro Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
